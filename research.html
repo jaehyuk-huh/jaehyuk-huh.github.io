@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jaehyuk Huh</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Jaehyuk Huh</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teaching.html">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="people.html">People</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="section-heading">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row top-buffer">
+        <div class="col-sm-8">
+            <h4><a href="efficient-virtual-address-translation-architecture.html">Efficient Virtual Address Translation Architecture</a></h4>
+            Virtual memory is a key technology in modern computer systems. All memory accesses require translations from virtual address to physical address.
+            Therefore, improving address translation performance is important. We study the opportunities to reduce the address translation overheads.
+            We proposed architectures to minimize the front address translation cost,
+            and to make each translation entity provide a broader translation coverage to improve address translation efficiency.
+        </div>
+        <div class="col-sm-4">
+            <img src="img/research-virtual-memory.png" class="img-fluid">
+        </div>
+      </div>
+      <div class="row top-buffer">
+        <div class="col-sm-8">
+            <h4>Acceleration System for Machine Learning</h4>
+            Recently, machine learning became a key application. As many user applications directly use machine learning service,
+            service provider has to meet the service level agreement to guarantee the user experience.
+            Considerable computation amount of machine learning workloads makes the problem difficult.
+            Dedicating resources to a workload makes us to guarantee SLA easily, but it wastes resources.
+            The goal of this study is to improve resource utilization and while guaranteeing performance of machine learning workloads.
+        </div>
+        <div class="col-sm-4">
+          <img src="img/research-acceleration.png" class="img-fluid">
+        </div>
+      </div>
+      <div class="row top-buffer">
+       <div class="col-sm-8">
+            <h4><a href="hardware-assisted-security.html">Hardware-assisted Security for Cloud Systems</a></h4>
+            Security is one of the most important features in cloud computing environment.
+            We focus on enhancing the security level by proposing new hardware supports or using existing hardware supports.
+            The goal of this study is to improve the security level with the minimal architectural modifications or performance overhead.
+            We have proposed secure memory architectures and architecural supports for secure virtual environment.
+       </div>
+       <div class="col-sm-4">
+          <img src="img/research-hw-security.png" class="img-fluid">
+       </div>
+      </div>
+      <div class="row top-buffer">
+       <div class="col-sm-8">
+           <h4><a href="cpu-scheduling.html">CPU Scheduling</a></h4>
+           CPU scheduling is a traditional but important topic in computer systems.
+           We have studied CPU scheduling in various contexts ranging from asymmetric multi-core to virtualized environment.
+           The goal of CPU scheduling study is to improve fairness while mitigating scheduling artifacts.      
+       </div>
+       <div class="col-sm-4">
+          <img src="img/research-cpu-scheduling.png" class="img-fluid">
+       </div>
+      </div>
+      <div class="row top-buffer">
+       <div class="col-sm-8">
+           <h4><a href="efficient-memory-persistency.html">Efficient Memory Persistency for Future Memory Systems</a></h4>
+           In future systems with non-volatile memories, in-memory data remain durable and persistent across multiple system power-on/off cycles.
+           We study an efficient way to support atomicity and durability of data in SCM through hardware-assisted write-ahead logging in non-volatile memory.
+           We propose a new hardware logging scheme with asynchronous and direct updates of in-place data while optimizing log writes that reduces the NVM writes substantially.
+       </div>
+       <div class="col-sm-4">
+          <img src="img/research-persistent-memory.png" class="img-fluid">
+       </div>
+      </div>
+      <div class="row top-buffer">
+       <div class="col-sm-8">
+           <h4><a href="memory-disaggregation.html">RDMA-based Memory Disaggregation</a></h4>
+           In cluster systems, memory of some nodes can be underutilized.
+           We propose a RDMA-based memory disaggregation system to fully utilize the memory in distributed systems.
+           Memory disaggregation introduces multi-tier to memory systems.
+           In multi-tired memory systems, memory management policy is important for performance.
+           We can achieve high performance by locating frequently accessed data in local memory.
+           We study system architectures and memory management policies.
+       </div>
+       <div class="col-sm-4">
+          <img src="img/research-memory-expansion.png" class="img-fluid">
+       </div>
+      </div>
+      <div class="row top-buffer">
+       <div class="col-sm-8">
+           <h4><a href="memory-compression.html">Memory Compression Architecture</a></h4>
+           Memory compression is a technique to serve physical address space with less real memory chips.
+           The goal of memory compression architecture is to reduce the cost on memory system.
+           However, it introduces additional latency and architecture modifications.
+           The goal of this study is to design an efficient memory compression architecture with short latency for frequently accessed data.
+           We mainly focus on hardware-level memory compression.
+       </div>
+       <div class="col-sm-4">
+          <img src="img/research-memory-compression.png" class="img-fluid">
+       </div>
+      </div>
+      <div class="row top-buffer">
+       <div class="col-sm-8">
+        <h4>Flexible and Cost-efficient HW-based Memory Mapping Mechanism</h4>
+        Hybrid memory systems have emerged with new memory techniques and memory models like 3D-stacked memory and non-volatile memory to make use of various memory strengths on a single system. On the existing homogeneous memory system, OS could serve access requests through the address translation from virtual to physical address, however hybrid memory systems require new mechanism to find the actual memory location. Our goal is to make flexible and cost-efficient HW-based memory mapping mechanism on hybrid memory system. This memory mapping structure could support systems to process memory requests quickly with minimum area overhead for mapping information.
+       </div>
+       <div class="col-sm-4">
+          <img src="img/research-flexible.png" class="img-fluid">
+       </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">&copy; Jaehyuk Huh. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
